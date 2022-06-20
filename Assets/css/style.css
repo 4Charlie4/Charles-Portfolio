@@ -48,9 +48,23 @@ header nav ul {
     color: #4D1A63;
     border-radius: 25px;
 }
-
+/* makes sections easier to style */
+section {
+    padding: 40px;
+}
+/* Hero image and size */
 .hero {
+background-image: url(/assets/image/hero.jpg);
+background-position: center;
+display: flex;
+justify-content: flex-start;
+flex-wrap: wrap;
+height: 600px;
+}
 
+.hero h2 {
+    height: 100px;
+    width
 }
 
 /* mobile responsiveness */
