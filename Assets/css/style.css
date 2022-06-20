@@ -8,7 +8,7 @@ body {
     color: #7F7382;
     font-family: Arial, Helvetica, sans-serif
 }
-
+/* responsive header add sticky should follow page later */
 header {
     display:flex;
     justify-content: space-between;
@@ -17,7 +17,7 @@ header {
     flex-wrap: wrap;
     position:sticky;
 }
-
+/* space for my name and color/font weight */
 header h1 {
     font-weight: bold;
     margin: 0;
@@ -25,7 +25,7 @@ header h1 {
     font-size: 36px;
     color: #90AECF;
 }
-
+/* nav elements flex for future responsiveness */
 header nav ul {
     display: flex;
     flex-wrap: wrap;
@@ -33,7 +33,7 @@ header nav ul {
     list-style: none;
     align-items: center;
 }
-
+/* space and look of nav elements. shadow aswell */
 .nav-list a{
     padding: 10px 15px;
     font-size: 1.5vw;
@@ -42,14 +42,18 @@ header nav ul {
     text-decoration: none;
     text-shadow: 0 0 10px rgba(0,0,0,0.6);
 }
-
+/* background of nav elements should change colors now when hover over */
 .nav-list a:hover {
     background: #90AECF;
     color: #4D1A63;
     border-radius: 25px;
 }
 
+.hero {
 
+}
+
+/* mobile responsiveness */
 @media screen and (max-width: 980px) {
 
 }
