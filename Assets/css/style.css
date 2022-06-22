@@ -102,6 +102,9 @@ figure img {
     color: var(--secondary-color);
 }
 
+.about {
+    padding-bottom: 0px;
+}
 
 .about-flex {
     display: flex;
@@ -109,6 +112,7 @@ figure img {
     justify-content: center;
     align-items: center;
     border-bottom: 2px solid var(--secondary-color);
+
 }
 
 .about h3{
@@ -129,6 +133,8 @@ figure img {
     justify-content: center;
     flex-wrap: wrap;
     padding-top: 0px;
+    background-color: var(--secondary-color);
+    
 }
 
 .work-place {
@@ -178,6 +184,20 @@ figure img {
 .place-img img {
     height: 300px;
     width: 250px;
+}
+
+footer {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--primary-color);
+}
+
+footer h4 {
+    font-weight: bold;
+    font-size: 36px;
+    color: var(--secondary-color);
+    text-shadow: rgba(0,0,0,0.5)
 }
 
 
