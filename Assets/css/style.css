@@ -30,6 +30,7 @@ header {
     position:sticky;
     top: 0;
     text-shadow: 0 0 10px rgba(0,0,0,0.6);
+    z-index: 9999;
 }
 /* space for my name and color/font weight */
 header h1 {
@@ -142,14 +143,33 @@ figure img {
 }
 
 .work-img {
-
+    position: relative;
 }
-
+/* run-buddy image */
 .work-img img {
     height: 413px;
     width: 920px;
-       
+   display: block;
 }
+
+.runlay {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0,0,0,0.5);
+    color:var(--secondary-color);
+    width: 100%;
+    transition: .5s ease;
+    opacity: 0;
+    color: var(--secondary-color);
+    font-size: 32px;
+    text-align: center;
+}
+
+.work-img:hover .runlay {
+    opacity: 1;
+}
+
+
 
 .place-img {
     margin: 20px;
@@ -158,8 +178,9 @@ figure img {
 .place-img img {
     height: 300px;
     width: 250px;
-    
 }
+
+
 
 
 
