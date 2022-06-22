@@ -78,11 +78,12 @@ header nav ul {
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
-    height: 300px;
+    height: 320px;
     width: 250px;
     margin: 20px 0px 0px 185px;
     border-radius: 5%;
-    background-color: rgba(77, 26, 99, 0.0);
+    background-color: rgba(77, 26, 99, 0.8);
+    border: 2px solid var(--secondary-color);
 }
 
 .hero-h2 {
@@ -100,6 +101,7 @@ figure img {
     color: var(--secondary-color);
 }
 
+
 .about-flex {
     display: flex;
     flex-wrap: wrap;
@@ -109,19 +111,23 @@ figure img {
 }
 
 .about h3{
-    font-size: 48px;
+    font-size: 32px;
     text-decoration: underline;
 }
 
 .about p {
-    padding: 0 200px;
+    margin: 0 auto;
     text-align: center;
-    font-size: 22px;
+    font-size: 18px;
+    width: 50%;
+
 }
 
 .section-work {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
     padding-top: 0px;
 }
 
@@ -133,8 +139,12 @@ figure img {
 
 .work-img img {
     height: 322px;
-    width: 504px;
-    
+    width: 504px;   
+}
+
+.place-img {
+    margin: 20px;
+    flex: 1;
 }
 
 
