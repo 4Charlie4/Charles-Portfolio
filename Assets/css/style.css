@@ -141,7 +141,7 @@ figure img {
 
 .work-place {
     display: flex;
-    justify-content: space-evenly;   
+    justify-content: space-between;
 }
 
 .work-h3 {
@@ -158,6 +158,7 @@ figure img {
     height: 413px;
     width: 920px;
    display: block;
+   width: 100%;
 }
 
 .runlay {
@@ -177,16 +178,14 @@ figure img {
     opacity: 1;
 }
 
-
-
-.place-img {
-    margin: 20px;
-}
-
-.place-img img {
+.work-place img {
     height: 300px;
-    width: 250px;
+    width: 350px;
+    margin: 0px 30px;
+    margin-top: 20px;
+    
 }
+
 
 footer {
     display:flex;
