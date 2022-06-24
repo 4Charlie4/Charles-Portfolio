@@ -143,6 +143,7 @@ figure img {
 .work-place {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .work-h3 {
@@ -157,10 +158,10 @@ figure img {
 
 /* run-buddy image */
 .work-img img {
-    height: 413px;
-    width: 920px;
+    height: auto;
    display: block;
    width: 100%;
+   
 }
 
 .runlay {
@@ -185,9 +186,9 @@ figure img {
 .work-place img {
     height: 300px;
     width: 283px;
-    margin: 0px 18px;
-    margin-top: 20px;
     
+    margin-top: 20px;
+     
 }
 
 
@@ -264,7 +265,6 @@ footer h4 {
     .contact {
         text-align: center;
     }
-
 
 
 }
