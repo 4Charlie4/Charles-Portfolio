@@ -11,7 +11,4 @@ This website is mobile responsive and should fit various screen sizes
 
 
 
-
-
-
 6/23/22 
