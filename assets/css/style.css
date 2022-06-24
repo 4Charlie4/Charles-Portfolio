@@ -67,7 +67,7 @@ header nav ul {
 
 /* Hero image and size */
 .hero {
-    background-image: url(/assets/image/hero.jpg);
+    background-image: url(../image/hero.jpg);
     background-position: center;
     display: flex;
     flex-wrap: wrap;
