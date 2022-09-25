@@ -182,14 +182,26 @@ figure img {
 }
 
 
+.rateFood {
+    height: 350px;
+    width: 535px;
+    margin-top: 5%;
+    position: relative;
+}
 
-.work-place img {
+.rateFood:hover .runlay {
+    opacity: 1;
+}
+
+.img2, .img3 {
     height: 300px;
     width: 283px;
     
     margin-top: 20px;
      
 }
+
+
 
 
 
